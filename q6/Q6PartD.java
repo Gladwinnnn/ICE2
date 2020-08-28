@@ -41,7 +41,7 @@ public class Q6PartD {
         int count = 0;
 
         for (int i = 1; i < garden.getTotalPlots() + 1; i++){
-            if (garden.getPlot(i).getCrop() != null){
+            if (garden.getPlot(i).getFarmer() != null){
                 totalPlots ++;
             }
         }
